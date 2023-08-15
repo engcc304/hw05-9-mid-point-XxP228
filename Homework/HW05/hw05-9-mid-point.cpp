@@ -28,3 +28,24 @@
     Output:
         Mid Point of A and B is ( 4.5, -2.5 )
 */
+#include <stdio.h>
+int main() {
+    float x1, y1, x2, y2;
+
+    printf("Input A Point:\n");
+    printf("x1 y1: ");
+    scanf("%f %f", &x1, &y1);
+
+    printf("Input B Point:\n");
+    printf("x2 y2: ");
+    scanf("%f %f", &x2, &y2);
+
+    float midX = (x1 + x2) / 2;
+    float midY = (y1 + y2) / 2;
+
+    printf("Mid Point of A and B is ( %.1f, %.1f )\n", midX, midY);
+    
+    return 0;
+}
+
+
